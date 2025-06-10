@@ -8,9 +8,6 @@ public class Kendaraan {
     this.tipe = tipe;
     this.merk = merk;
     }
-    Kendaraan(String platNomor) {
-        this.platNomor = platNomor;
-    }
     void tampilkanInformasi() {
         System.out.println("Plat Nomor: " + platNomor);
         System.out.println("Tipe: " + tipe);
